@@ -1,0 +1,29 @@
+{
+  "name": "eslint-demo",
+  "version": "1.0.0",
+  "description": "eslint 示例项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "beta": "webpack --env=beta"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "bge",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
