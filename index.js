@@ -9,11 +9,11 @@ var EslintDemoSample = new EslintDemo();
 EslintDemoSample.func1();
 */
 
-class EslintDemo {
-  func1 () {
-    console.log('ddddd')
-  };
-};
+class EslintDemo{
+    func1 () {
+        console.warn('ddddd');
+    }
+}
 
-var EslintDemoSample = new EslintDemo()
-EslintDemoSample.func1()
+var EslintDemoSample = new EslintDemo();
+EslintDemoSample.func1();
