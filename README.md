@@ -1,5 +1,15 @@
 ### eslint 入门试手项目
 
+#### 运行该项目
+
+npm install 
+
+npm start
+
+访问 http://localhost:9000
+
+#### 一步一步构建该项目
+
 一开始我想整一个项目，测试一下eslint是怎么玩的，然后我想要基于webpack，因为大部分项目我们是基于webpack来创建的。
 
 于是我新建了一个项目，npm init,一直enter下去，生成了一个package.json，这个文件用来记录需要的node模块。
