@@ -18,7 +18,7 @@ npm start
 
 然后我开始查找eslint 和webpack如何结合？
 
-在eslint的官网，http://eslint.cn/docs/user-guide/integrations，我发现了Build Systems --》Webpack: [eslint-loader](https://www.npmjs.org/package/eslint-loader)。
+在eslint的官网，http://eslint.cn/docs/user-guide/integrations ，我发现了Build Systems --》Webpack: [eslint-loader](https://www.npmjs.org/package/eslint-loader)。
 
 我开始按照eslint-loader的说明安装， npm install eslint-loader --save-dev，同时当然需要安装eslint了，npm install eslint --save-dev。
 
